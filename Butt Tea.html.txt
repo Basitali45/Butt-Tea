@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUTT Rice & Tea Store | Kashmiri Pink Tea Rs 150</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--maroon:#4a0a24;--maroon2:#7a0a36;--gold:#d4af37;--gold2:#ffe27a;--cream:#fff8f1;--green:#25D366}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:#2b0a18}
+.topbar{background:var(--maroon);color:var(--gold2);padding:14px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.logo{font-weight:800;font-size:22px;color:var(--gold2)}
+.nav{display:flex;gap:22px;font-size:14px}.nav a{color:#f5d6a0;text-decoration:none}
+.btn-wa-top{background:var(--maroon2);border:1.5px solid var(--gold);color:white;padding:8px 18px;border-radius:50px;font-weight:700;font-size:13px;display:flex;align-items:center;gap:8px;text-decoration:none}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;min-height:80vh;background:linear-gradient(90deg,var(--maroon) 0%, #5a0f2e 50%, var(--cream) 50%, var(--cream) 100%)}
+.hero-left{background:var(--maroon);padding:50px 40px;color:white;display:flex;flex-direction:column;justify-content:center}
+.hero-left h1{font-size:54px;line-height:.95;font-weight:900;color:var(--gold2)}
+.hero-left h1 span{color:white}
+.urdu{font-size:26px;margin:14px 0;color:#ffd6e3;line-height:1.6}
+.price-badge{margin:18px 0;background:linear-gradient(135deg,#7a0a36,#4a0a24);border:2px solid var(--gold);padding:12px 26px;border-radius:14px;display:inline-flex;flex-direction:column;align-items:center}
+.price-badge b{font-size:38px;color:var(--gold2)}
+.hero-right{padding:30px;background:var(--cream);display:flex;flex-direction:column;justify-content:center}
+.card{background:white;border-radius:18px;box-shadow:0 20px 60px rgba(74,10,36,.15);overflow:hidden;border:1px solid #ffe2c7;display:grid;grid-template-columns:1fr 1fr}
+.card-img img{width:100%;height:100%;object-fit:cover;display:block;min-height:380px}
+.card-content{padding:28px}
+.list div{display:flex;align-items:center;gap:10px;margin:10px 0;font-weight:600;font-size:14px}
+.list div i{width:28px;height:28px;background:var(--maroon);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal}
+.cta-row{display:flex;gap:10px;margin-top:18px}
+.btn{padding:13px 20px;border-radius:10px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:none}
+.btn-dark{background:var(--maroon);color:var(--gold2);border:1px solid var(--gold)}
+.btn-green{background:var(--green);color:white;flex:1}
+.badges-footer{background:var(--maroon);color:#ffdb99;padding:16px 20px;display:flex;justify-content:space-around;flex-wrap:wrap;gap:10px;font-size:13px;font-weight:600}
+.floating-wa{position:fixed;bottom:18px;right:18px;background:var(--green);color:white;width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;box-shadow:0 8px 25px rgba(37,211,102,.5);z-index:200;text-decoration:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr;background:var(--maroon)}.hero-left{padding:26px 18px;text-align:center;align-items:center}.hero-left h1{font-size:34px}.hero-right{padding:12px}.card{grid-template-columns:1fr}.nav{display:none}}
+</style>
+</head>
+<body>
+<div class="topbar">
+<div class="logo">🍃 BUTT RICE & TEA STORE</div>
+<div class="nav"><a href="#">Home</a><a href="#">Shop</a><a href="#">About</a><a href="#">Contact</a></div>
+<a class="btn-wa-top" href="https://wa.me/923045321006?text=Assalam%20o%20Alaikum%20Mujhe%20Gold%20Heart%20Kashmiri%20Tea%20order%20karni%20hai" target="_blank">📱 WhatsApp Order 03045321006</a>
+</div>
+<div class="hero">
+<div class="hero-left">
+<h1>INSTANT<br>KASHMIRI<br><span>PINK TEA</span></h1>
+<p class="urdu">اب گھر پر بنائیں اپنی پسندیدہ کشمیری چائے!</p>
+<div class="price-badge"><span>صرف 150 روپے فی ڈبیہ</span><b>150 Rs</b></div>
+</div>
+<div class="hero-right">
+<div class="card">
+<div class="card-img"><img src="product.jpg" alt="Gold Heart Tea"></div>
+<div class="card-content">
+<div>★★★★★ <b>4.9 - 124 Reviews</b></div>
+<h3>Instant Kashmiri Pink Tea<br>GOLD HEART</h3>
+<div class="list">
+<div><i>☕</i> بنانے میں آسان - 2 منٹ میں تیار</div>
+<div><i>🍃</i> خوش ذائقہ اور معیاری</div>
+<div><i>🚚</i> 12 ڈبیاں پر ڈیلیوری فری</div>
+</div>
+<div class="cta-row">
+<a href="#" class="btn btn-dark">Add to Cart</a>
+<a href="https://wa.me/923045321006?text=Salam%20Kashmiri%20Tea%20order" target="_blank" class="btn btn-green">💬 WhatsApp پر آرڈر کریں</a>
+</div>
+<p style="margin-top:14px;font-size:12px">اصلی گلابی رنگ • 10-15 کپ ایک ڈبہ سے</p>
+</div>
+<div class="badges-footer" style="grid-column:1/-1"><span>🌿 100% Original</span><span>⚡ Fast Delivery</span><span>🔒 WhatsApp Order</span><span>📞 03045321006</span></div>
+</div>
+</div>
+</div>
+<a class="floating-wa" href="https://wa.me/923045321006?text=Order%20Kashmiri%20Tea" target="_blank">💬</a>
+</body>
+</html>
